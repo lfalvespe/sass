@@ -1,0 +1,11 @@
+@use 'variables'
+@use 'flexConfig'
+
+.footer
+	flex: 2
+	@include flexConfig.flexConfig(column, variables.$secondary)
+	padding: 50px
+	#contato
+		color: variables.$light
+	#social-icons
+		color: variables.$primary

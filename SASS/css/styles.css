@@ -1,0 +1,87 @@
+header, .section2 {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 10px;
+}
+header h1, .section2 h1 {
+  color: blue;
+  padding: 8px;
+}
+header p, .section2 p {
+  color: red;
+  padding: 8px;
+}
+header button, .section2 button {
+  padding: 15px;
+}
+header button:hover, .section2 button:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  padding: 50px;
+}
+.footer #contato {
+  color: white;
+}
+.footer #social-icons {
+  color: blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.section1 {
+  flex: 1;
+  background-color: yellow;
+  padding: 20px;
+  text-align: center;
+}
+.section1 h1 {
+  color: gray;
+}
+.section1 p {
+  color: green;
+  text-align: justify;
+}
+
+.section2 {
+  flex: 1;
+  background-color: lightblue;
+  padding: 10px;
+}
+.section2 h1 {
+  color: blue;
+}
+.section2 p {
+  color: red;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.1294117647);
+  text-align: justify;
+}
+.section2 button {
+  padding: 20px;
+  width: 50%;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,18 @@
+@use 'variables'
+@use 'flexConfig'
+
+header
+	flex: 2
+	@include flexConfig.flexConfig(row, variables.$dark)
+	padding: 10px
+	h1
+		color: variables.$primary
+		padding: 8px
+	p
+		color: variables.$danger
+		padding: 8px
+	button
+		padding: 15px
+		&:hover
+			background-color: variables.$dark
+			color: variables.$light

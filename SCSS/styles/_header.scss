@@ -1,0 +1,17 @@
+header {
+	@include flexConfig(row, $secondary);
+	padding: 10px;
+	h2 {
+		color: $warning;
+	}
+	button {
+		background-color: $dark;
+		color: $light;
+		padding: 5px;
+		&:hover {
+			background-color: $light;
+			color: $dark;
+		}
+	} 
+	
+}

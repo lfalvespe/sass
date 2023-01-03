@@ -1,0 +1,7 @@
+@mixin flexConfig($dir, $bg) {
+	display: flex;
+	flex-direction: $dir;
+	justify-content: center;
+	align-items: center;
+	background-color: $bg;
+}

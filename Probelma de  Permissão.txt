@@ -1,0 +1,7 @@
+Para quem tiver problema com o CMD na hora de usar o sass. 
+Segue o comando para permitir execução de scripts locais: 
+
+Set-ExecutionPolicy RemoteSigned
+
+
+OBS.: Abrir o prompt de comando como administrador.

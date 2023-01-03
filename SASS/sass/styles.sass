@@ -1,0 +1,41 @@
+@use 'variables'
+@use 'header'
+@use 'footer'
+
+* 
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+body
+	min-height: 100vh
+	display: flex
+	flex-direction: column
+	justify-content: stretch
+.section1
+	flex: 1
+	background-color: yellow
+	padding: 20px
+	text-align: center
+	h1
+		color: variables.$secondary
+	p
+		color: variables.$success
+		text-align: justify
+	
+.section2
+	@extend header
+	flex: 1
+	background-color: lightblue
+	padding: 10px
+	h1
+		color: variables.$primary
+	p
+		color: variables.$danger
+		text-shadow: 1px 2px #00000021
+		text-align: justify
+	button
+		padding: 20px
+		width: 50%
+	
+		

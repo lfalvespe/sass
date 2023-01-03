@@ -1,0 +1,49 @@
+header, .section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  padding: 10px;
+}
+header h2, .section2 h2 {
+  color: yellow;
+}
+header button, .section2 button {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+header button:hover, .section2 button:hover {
+  background-color: white;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section1 {
+  padding: 10px;
+  color: blue;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: rgb(67, 166, 247);
+  padding: 50px;
+  row-gap: 10px;
+  margin-top: 40px;
+}
+footer .contatos {
+  background-color: yellow;
+}
+footer .social-icons {
+  background-color: green;
+}/*# sourceMappingURL=index.css.map */
